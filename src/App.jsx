@@ -327,7 +327,7 @@ document.querySelectorAll("[data-cursor]").forEach((el) => {
           <div className="skill-card fade-in stagger-2">
             <div className="skill-card-label">Tools</div>
             <div className="skill-items">
-              {["Figma","Canva","Illustrator (basic)"].map(s=><span key={s} className="pill tool">{s}</span>)}
+              {["Figma","Canva","Illustrator"].map(s=><span key={s} className="pill tool">{s}</span>)}
             </div>
           </div>
           <div className="skill-card fade-in stagger-3" style={{gridColumn:"1/-1"}}>
@@ -352,7 +352,6 @@ document.querySelectorAll("[data-cursor]").forEach((el) => {
           <ul className="exp-bullets">
             <li>Designed professional LinkedIn posts and carousels focused on business, marketing, finance, and Founder's Office content.</li>
             <li>Created clean, structured layouts with formal visual tone ensuring clarity, hierarchy, and brand consistency.</li>
-            <li>Collaborated with the team to translate complex, text-heavy ideas into visually engaging structured designs.</li>
           </ul>
         </div>
         <div className="exp-card fade-in">
@@ -363,7 +362,6 @@ document.querySelectorAll("[data-cursor]").forEach((el) => {
           <ul className="exp-bullets">
             <li>Managed social media presence and developed a standout strategy for the annual Core Team announcement.</li>
             <li>Conceptualised and designed a 12-post Instagram grid strategy forming a large cohesive 'hero image' on the profile page.</li>
-            <li>Chose a retro film strip aesthetic — visually spotlighting each team member in their own frame with a consistent visual language.</li>
           </ul>
         </div>
       </section>
